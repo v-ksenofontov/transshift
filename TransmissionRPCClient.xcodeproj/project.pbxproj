@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		076D145E2000BB8A00A8E5A1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076D145D2000BB8A00A8E5A1 /* Launch Screen.storyboard */; };
 		2C039F3B1B52D33C00233534 /* StatusCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C039F3A1B52D33C00233534 /* StatusCategory.m */; };
 		2C039F3E1B52D3DD00233534 /* StatusCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C039F3D1B52D3DD00233534 /* StatusCategories.m */; };
 		2C0688731B948C32008B69EE /* MagnetURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0688721B948C32008B69EE /* MagnetURL.m */; };
@@ -90,6 +91,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		076D145D2000BB8A00A8E5A1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		2C039F391B52D33C00233534 /* StatusCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusCategory.h; sourceTree = "<group>"; };
 		2C039F3A1B52D33C00233534 /* StatusCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusCategory.m; sourceTree = "<group>"; };
 		2C039F3C1B52D3DD00233534 /* StatusCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusCategories.h; sourceTree = "<group>"; };
@@ -300,6 +302,7 @@
 		2C5810FC1B39BBB50069020D /* UI Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				076D145D2000BB8A00A8E5A1 /* Launch Screen.storyboard */,
 				2CFB92CF1B56D25400C83354 /* controllers.storyboard */,
 				2CF9153E1BB463D500E84A7C /* Pieces Legend Controller */,
 				2CF971AC1B790B02008EE25D /* GeoIP Controller */,
@@ -735,6 +738,7 @@
 				2C9DDA071B77CA78008F16BF /* torrentTitleSectionHeader.xib in Resources */,
 				2CF861481B77C0C300E47F53 /* icons.xcassets in Resources */,
 				2CF964F01B4D5DB9006D8C7E /* docIcon_64x64.png in Resources */,
+				076D145E2000BB8A00A8E5A1 /* Launch Screen.storyboard in Resources */,
 				2CF2CBA01B7606A400C42477 /* flagsDescription.xib in Resources */,
 				2C80AEAF1B4EBA6B00377E11 /* InfoMessageIcons.xcassets in Resources */,
 				2CF964EF1B4D5DB9006D8C7E /* docIcon_44x58.png in Resources */,
@@ -990,7 +994,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = HSFDT6XK2S;
@@ -1009,7 +1012,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = HSFDT6XK2S;
