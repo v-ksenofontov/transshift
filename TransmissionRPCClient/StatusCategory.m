@@ -43,7 +43,15 @@
 
 - (void)fillItemsFromInfos:(TRInfos*)infos
 {
-    _items = [infos valueForKey:_filterString];
+    //_items = [infos valueForKey:_filterString];
+	
+	//VK:
+	NSArray *source = [infos valueForKey:_filterString];
+	_items = [source sortedArrayUsingComparator:^NSComparisonResult(id a, id b) {
+		NSString *first = [(TRInfo*)a dateAddedString];
+		NSString *second = [(TRInfo*)b dateAddedString];
+		return ![first compare:second];
+	}];
 }
 
 
